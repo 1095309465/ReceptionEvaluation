@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">家和评估</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnDispenseTitle">配药</string>
+    <string name="btnDeliveryTitle">发药</string>
+    <string name="btnInsulinTitle">胰岛素</string>
+    <string name="medicineMainTitle">配药发药</string>
+    <string name="beforeMeal">配餐前药</string>
+    <string name="txtUnCompleted">未完成</string>
+    <string name="txtCompleted">已完成</string>
+    <string name="loading">加载中…</string>
+    <string name="image_button_content_description">Change state of section</string>
+</resources>

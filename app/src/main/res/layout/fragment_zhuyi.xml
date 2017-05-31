@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jhzy.receptionevaluation.ui.fragment.elderInfo.ZhuyiFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/zhuyi_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:visibility="invisible">
+
+            <include
+                android:id="@+id/zhuyi_eat"
+                layout="@layout/item_zhuyi"/>
+
+            <include
+                android:id="@+id/zhuyi_medicine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/item_zhuyi"
+                android:layout_marginTop="20dp"/>
+
+            <include
+                android:id="@+id/zhuyi_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/item_zhuyi"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/zhuyi_ok"
+                android:layout_width="334dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/selector_login"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="编辑"
+                android:gravity="center"
+                android:textColor="@color/color_white"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/zhuyi_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</ScrollView>

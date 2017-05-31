@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_check"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_activity_bg"
+    android:orientation="vertical"
+    tools:mContext="com.jhzy.receptionevaluation.ui.CheckActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/ass_back"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="血压检查"
+            android:textColor="@color/color_white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:paddingBottom="33dp"
+        android:paddingTop="33dp">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/head_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="17dp"
+            android:scaleType="fitXY"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:failureImageScaleType="fitXY"
+            fresco:placeholderImage="@mipmap/img_zwt_220"
+            fresco:placeholderImageScaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/head_icon"
+            android:text="姓名"
+            android:textColor="#4C4C4C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/head_icon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="9dp"
+            android:layout_toRightOf="@id/head_icon"
+            android:text="上海市普陀区真北路1222弄镇北小区88号202室"
+            android:textColor="@color/color_gray_font"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/address"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/head_icon"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女"
+                android:textColor="@color/color_gray_font"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/color_gray_font" />
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="71岁"
+                android:textColor="@color/color_gray_font"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/color_gray_font" />
+
+            <TextView
+                android:id="@+id/bed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A302-12"
+                android:textColor="@color/color_gray_font"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="6dp"
+            android:drawablePadding="5dp"
+            android:drawableRight="@mipmap/icon_daily_right"
+            android:text="历史检查"
+            android:textColor="#4C4C4C" />
+
+    </RelativeLayout>
+    <!--检查的具体内容-->
+    <LinearLayout
+        android:id="@+id/chek_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical" />
+
+
+    <LinearLayout
+        android:id="@+id/line_layout"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/line_introduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="近7次血压结果折线图"
+                android:textColor="@color/color_black_font"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/color_gray_font" />
+
+            <TextView
+                android:id="@+id/time_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016年7月1日至2016年8月1日"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="27dp"
+            android:layout_marginTop="30dp"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@color/color_blue" />
+
+            <TextView
+                android:id="@+id/line_1_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="收缩压" />
+
+            <View
+                android:id="@+id/color_view"
+                android:visibility="gone"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginLeft="15dp"
+                android:background="@color/apple" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/line_2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="舒张压" />
+        </LinearLayout>
+
+        <com.jhzy.receptionevaluation.widget.LineView
+            android:id="@+id/line_view"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp" />
+    </LinearLayout>
+</LinearLayout>

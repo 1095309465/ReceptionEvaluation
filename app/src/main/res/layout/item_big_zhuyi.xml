@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/zhuyi_title"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#4D4D4D"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@mipmap/icon_zhuyi_dot"
+            android:drawablePadding="15dp"
+            android:text="饮食注意信息"
+            android:textSize="15sp"
+            android:drawableRight="@mipmap/icon_zhuyi_dot"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/color_gray"/>
+    <EditText
+        android:id="@+id/zhuyi_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|top"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="15dp"
+        android:textSize="14sp"
+        android:textColor="#7B7B7B"
+        android:minHeight="170dp"
+        android:paddingBottom="15dp"
+
+        android:background="@color/white"/>
+</LinearLayout>

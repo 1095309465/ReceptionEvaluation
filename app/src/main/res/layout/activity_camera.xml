@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/surfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#55353333" />
+
+
+    <!--  <ImageView
+          android:id="@+id/camera_people"
+          android:layout_width="300dp"
+          android:layout_height="300dp"
+          android:layout_marginTop="150dp"
+          android:src="@mipmap/camera_people"
+          android:background="#00000000"
+          android:layout_centerHorizontal="true"/>-->
+
+    <ImageView
+        android:id="@+id/camera_bacground"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="#00000000"
+        android:src="@mipmap/camera_bacground" />
+
+
+    <TextView
+        android:id="@+id/right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/camera_bacground"
+        android:background="#aa131212" />
+
+
+    <TextView
+        android:id="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/camera_bacground"
+        android:background="#aa131212" />
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_toLeftOf="@id/right"
+        android:layout_toRightOf="@id/left"
+        android:background="#aa131212" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/camera_bacground"
+        android:layout_toLeftOf="@id/right"
+        android:layout_toRightOf="@id/left"
+        android:background="#aa131212" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/camera_bacground"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:text="请将正面与面部轮廓保持一致"
+        android:textColor="#c8c8c8" />
+
+    <ImageView
+        android:id="@+id/paizhao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:src="@mipmap/camera_paizhao" />
+
+    <LinearLayout
+        android:id="@+id/camera_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/not"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:src="@mipmap/camera_not" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+
+            android:src="@mipmap/camera_sure" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:src="@mipmap/back_write" />
+
+
+</RelativeLayout>

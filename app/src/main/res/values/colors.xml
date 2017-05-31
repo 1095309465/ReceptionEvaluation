@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#4AB034</color>
+    <color name="buttongreen">#52BF3A</color>
+    <color name="buttonclickgreen">#429630</color>
+    <color name="editgreen">#439630</color>
+
+    <color name="color_rcjc_txt">#636363</color>
+
+    <color name="color_bar_uncheck">#4C4C4C</color>
+
+    <!--bigyu-->
+    <color name="color_orange">#F89300</color>
+    <color name="color_orange_1">#FFA626</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_tj_press">#ECF3F8</color>
+    <color name="color_black">#000000</color>
+    <color name="color_gray">#E5E5E5</color>    <!--分割线的颜色-->
+    <color name="color_activity_bg">#F2F2F2</color>
+    <color name="login_border">#c8c8c8</color>
+    <color name="color_new_elder">#4D4D4D</color>
+    <color name="color_font_gray">#B0B0B0</color>
+
+
+    <color name="text_gray">#323232</color>
+
+
+    <color name="color_x_line">#bdbdbd</color>
+
+    <color name="color_inx_line">#bebebe</color>
+    <color name="color_blue">#51b0fa</color>
+    <color name="color_green">#44CBB4</color>
+
+    <!--长者信息界面的编辑按钮绿色-->
+    <color name="apple">#75CD3E</color>
+    <!--长者信息界面的分割线-->
+    <color name="silver_chalice">#ADADAD</color>
+
+    <color name="letter_color">#9fc5e8</color>
+    <!--长者信息界面-->
+    <color name="info_black">#393939</color>
+    <!--长者信息界面横向分割线-->
+    <color name="info_gray">#979797</color>
+
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="green">#FF2FB474</color>
+    <color name="black">#000000</color>
+
+    <color name="color_xy_line">#353535</color>
+
+    <color name="color_gray_font">#848484</color>
+    <color name="color_black_font">#383838</color>
+    <color name="color_click">#3E8CC9</color>
+
+    <color name="color_luxiang_click">#EBFFEB</color>
+
+    <color name="swipe_color_1">#B6DB49</color>
+    <color name="swipe_color_2">#99CC00</color>
+    <color name="swipe_color_3">#8ABD00</color>
+    <color name="swipe_color_4">#7CAF00</color>
+
+
+
+    <!--绿色-->
+    <color name="color_green_deep">#429630</color>
+    <color name="color_green_font">#4AB034</color>
+    <!--灰色-->
+    <color name="color_gray_font_1">#787878</color>
+    <color name="color_gray_font_2">#A8A8A8</color>
+    <color name="color_gray_font_3">#4A4A4A</color>
+    <color name="color_gray_font_4">#878787</color>
+    <color name="color_gray_font_5">#8B8B8B</color>
+    <color name="color_gray_line">#DCDCDC</color>
+    <!--背景-->
+    <color name="color_gray_bg">#DDDDDD</color>
+    <color name="color_gray_bg_1">#EBEBEB</color>
+    <!--其他-->
+    <color name="color_red">#FF6E65</color>
+    <color name="translate">#00000000</color>
+
+    <color name="color_green_main">#67c752</color>
+
+    <color name="color_black_333333">#333333</color>
+    <color name="color_gray_858585">#858585</color>
+
+    <color name="color_gray_95989a">#95989a</color>
+    <color name="color_green_52bf3a">#52bf3a</color>
+    <color name="color_gray_d8d8d8">#d8d8d8</color>
+    <color name="color_black_666666">#666666</color>
+    <color name="color_red_e50000">#e50000</color>
+    <color name="color_gray_999999">#999999</color>
+    <color name="color_grag_a5a5a5">#a5a5a5</color>
+    <color name="color_orange_ffa626">#ffa626</color>
+    <color name="color_gray_eeeeee">#eeeeee</color>
+</resources>
+

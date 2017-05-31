@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <com.jhzy.receptionevaluation.widget.WheelView
+            android:id="@+id/date_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:itemNumber="3"
+            app:lineColor="@android:color/transparent"
+            app:lineHeight="1.5dp"
+            app:maskHeight="48dp"
+            app:noEmpty="true"
+            app:normalTextColor="#d6d6d6"
+            app:normalTextSize="14sp"
+            app:selectedTextColor="#ff9300"
+            app:selectedTextSize="17sp"
+            app:unitHeight="50dp" />
+
+        <com.jhzy.receptionevaluation.widget.WheelView
+            android:id="@+id/date_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:itemNumber="3"
+            app:lineColor="@android:color/transparent"
+            app:lineHeight="1.5dp"
+            app:maskHeight="48dp"
+            app:noEmpty="true"
+            app:normalTextColor="#d6d6d6"
+            app:normalTextSize="14sp"
+            app:selectedTextColor="#ff9300"
+            app:selectedTextSize="17sp"
+            app:unitHeight="50dp" />
+
+        <com.jhzy.receptionevaluation.widget.WheelView
+            android:id="@+id/date_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:itemNumber="3"
+            app:lineColor="@android:color/transparent"
+            app:lineHeight="1.5dp"
+            app:maskHeight="48dp"
+            app:noEmpty="true"
+            app:normalTextColor="#d6d6d6"
+            app:normalTextSize="14sp"
+            app:selectedTextColor="#ff9300"
+            app:selectedTextSize="17sp"
+            app:unitHeight="50dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="16sp"
+        android:textColor="#4D4D4D"
+        android:text="确定" />
+</LinearLayout>

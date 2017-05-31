@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_circle"
+
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@mipmap/icon_zhuyi_dot"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/jilu_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017:02:02"
+            android:textColor="#6F6F6F"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/iv"
+            android:layout_centerVertical="true"/>
+
+        <View
+            android:id="@+id/div1"
+            android:layout_width="0.5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#D0D0D0"
+            android:layout_toRightOf="@id/jilu_time"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/jilu_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@mipmap/icon_info_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/jilu_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#949494"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/div1"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/jilu_next"
+            />
+
+
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="14dp" />
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zhuyi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jhzy.receptionevaluation.ui.assess.ZhuyiActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        android:fitsSystemWindows="true">
+
+        <ImageView
+            android:id="@+id/zhuyi_edit_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:src="@mipmap/ass_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="编辑注意事项"
+            android:textColor="@color/color_white"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/zhuyi_edit_food"
+            layout="@layout/item_big_zhuyi"/>
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/zhuyi_edit_medicine"
+            layout="@layout/item_big_zhuyi"
+            android:layout_marginTop="20dp"
+            />
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/zhuyi_edit_other"
+            layout="@layout/item_big_zhuyi"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/zhuyi_edit_ok"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/selector_login"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="完成"
+            android:textColor="@color/color_white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>
